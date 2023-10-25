@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Assignment</title>
+        <link rel="stylesheet" href="./css/assignment.css">
+        <script src="./js/assignment.js" defer ></script>
+    </head>
+    <body>
+
+        <div class="align"><img src="./images/rog.jpg"  id="img" /></div> 
+        
+        <div class="container">
+        <form id="form">
+            <!-- width in px -->
+            <div class="break"></div>
+            <div class="p1">Enter width in px :</div>
+            <div><input type="text" id="width_px" onchange="reSize();"></div>
+
+            <!-- height in px -->
+            <div class="break"></div>
+            <div class="p2">Enter height in px :</div> 
+            <div><input type="text" id="height_px" onchange="reSize();"></div>
+          
+            <!-- width in %  -->
+            <div class="break"></div>
+            <div class="p3">Enter width in % :</div>
+            <div><input type="text" id="width_per" onchange="reSize();"></div>
+
+            <!-- height in %  -->
+            <div class="break"></div>
+            <div class="p4">Enter height in % :</div>
+            <div><input type="text" id="height_per" onchange="reSize();"></div>
+
+            <!-- enter link -->
+            <div class="break"></div>
+            <div class="p5">Enter link :</div>
+            <div><input type="text" id="enter_link" onchange="load_link();"></div>
+
+            <!-- checkbox -->
+            <div class="break"></div>
+            <div class="p6">Do you want to open the link in new tab</div>
+            <div><input type="checkbox" id="link" name="link"  ></div>
+        </form>
+    </div>
+    </body>
+</html>
